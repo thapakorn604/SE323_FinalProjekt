@@ -6,6 +6,15 @@ import { Box } from 'reactbulma'
 import AdminIndexTable from './AdminIndexTable'
 
 class AdminIndex extends Component {
+  constructor(props) {
+        super(props);
+        this.state = {
+          id:"",
+          name:"",
+          department:""
+        }
+  }
+
   render() {
     return (
       <div>

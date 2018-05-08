@@ -1,0 +1,18 @@
+[
+    {
+      "studentId" : 582115015,
+      "name": "Thapakorn Tuwaemuesa",
+      "faculty": "College of Arts, Media and Technology",
+      "major": "Software engineering",
+      "advisor": "Kittitouch Suteeca"    
+    },
+    {
+      "studentId" : 582115001,
+      "name": "Thanawat Lukuan",
+      "faculty": "College of Arts, Media and Technology",
+      "major": "Software engineering",
+      "advisor": "Kittitouch Suteeca"    
+    }
+]
+
+  

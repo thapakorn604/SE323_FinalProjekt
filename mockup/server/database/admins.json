@@ -1,0 +1,13 @@
+[
+    {
+      "adminId":009,
+      "name": "Roberto Firmino",
+      "department":"Registration office"
+    },
+    {
+      "adminId":011,
+      "name": "Mohamed Salah",
+      "department":"Registration office"
+    }
+    
+  ]

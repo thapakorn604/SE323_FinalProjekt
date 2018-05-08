@@ -1,0 +1,14 @@
+[
+    {
+      "lecturerId" : 101,
+      "name": "Noppon Choosri",
+      "faculty": "College of Arts, Media and Technology",
+      "major" : "Software engineering"
+    },
+    {
+      "lecturerId" : 102,
+      "name": "Pattama Longani",
+      "faculty": "College of Arts, Media and Technology",
+      "major" : "Software engineering"
+    }
+  ]

@@ -7,7 +7,12 @@ import { Box } from 'reactbulma'
 class LecturerIndex extends Component {
     constructor(props) {
         super(props);
-        this.state = {}
+        this.state = {
+            lecturerId:"",
+            name:"",
+            faculty:"",
+            major:""
+        }
     }
     render() {
         return (
@@ -24,6 +29,7 @@ class LecturerIndex extends Component {
                                         </figure>
                                     </div>
                                     <div className="has-text-centered">
+                                        <p><strong>Lecturer ID : </strong>CAMT101</p>
                                         <p><strong>Name : </strong>Dr. Noppon Coosri</p>
                                         <p><strong>Faculty : </strong>College of Art, Media and Technology</p>
                                         <p><strong>Major : </strong>Software Engineering</p>

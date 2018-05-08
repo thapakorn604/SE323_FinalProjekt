@@ -9,12 +9,13 @@ import StudentEnrolledTable from './StudentEnrolledTable';
 class StudentIndex extends Component {
     constructor(props) {
         super(props);
-        this.state = 
-        {studentId:"",
-        name:"",
-        faculty:"",
-        major:"",
-        advisor:""}
+        this.state = {
+            studentId:"",
+            name:"",
+            faculty:"",
+            major:"",
+            advisor:""
+            }
     }
   
     render() {
