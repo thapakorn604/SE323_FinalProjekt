@@ -33,11 +33,11 @@ class StudentIndex extends Component {
                                         </figure>
                                     </div>
                                     <div className="has-text-centered">
-                                        <p><strong>Student ID : </strong> {this.state.studentId} </p>
-                                        <p><strong>Name : </strong> {this.state.name} </p>
-                                        <p><strong>Faculty : </strong> {this.state.faculty} </p>
-                                        <p><strong>Major : </strong>{this.state.major} </p>
-                                        <p><strong>Advisor : </strong>{this.state.advisor}</p>
+                                        <p><strong>Student ID : </strong> 582115015 </p>
+                                        <p><strong>Name : </strong> Thapakorn Tuwaemuesa </p>
+                                        <p><strong>Faculty : </strong> College of Arts, Media and Technology </p>
+                                        <p><strong>Major : </strong> Software Engineering </p>
+                                        <p><strong>Advisor : </strong> Kittitouch Suteeca </p>
                                     </div>
                                 </div>
                             </div>
