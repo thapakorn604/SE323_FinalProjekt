@@ -1,0 +1,22 @@
+[
+    {
+      "courseId":953323,
+      "name":"Software cons, testing and maintain",
+      "lecturer":"Chartchai Doungsa-ard",
+      "seat":50,
+      "credit":3,
+      "day":"Tuesday",
+      "time":"9.30 - 12.30",
+      "semester":"2/2560"
+    },
+    {
+      "courseId":953495,
+      "name":"Selected topic in SE2",
+      "lecturer":"Pattama Longani",
+      "seat":30,
+      "credit":3,
+      "day":"TBA",
+      "time":"TBA",
+      "semester":"2/2560"
+    }
+  ]
