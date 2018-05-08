@@ -3,13 +3,20 @@ import StudentNav from './StudentNav'
 import user from '../Images/user.png'
 import Style from './style.css'
 import { Box } from 'reactbulma'
+import fetch from "isomorphic-fetch"
 import StudentEnrolledTable from './StudentEnrolledTable';
 
 class StudentIndex extends Component {
     constructor(props) {
         super(props);
-        this.state = {}
+        this.state = 
+        {studentId:"",
+        name:"",
+        faculty:"",
+        major:"",
+        advisor:""}
     }
+  
     render() {
         return (
             <div>
@@ -25,11 +32,11 @@ class StudentIndex extends Component {
                                         </figure>
                                     </div>
                                     <div className="has-text-centered">
-                                        <p><strong>Student ID : </strong> 582115015 </p>
-                                        <p><strong>Name : </strong> Thapakorn Tuwaemuesa</p>
-                                        <p><strong>Faculty : </strong>College of Art, Media and Technology</p>
-                                        <p><strong>Major : </strong>Software Engineering</p>
-                                        <p><strong>Advisor : </strong>Kittitouch Suteeca</p>
+                                        <p><strong>Student ID : </strong> {this.state.studentId} </p>
+                                        <p><strong>Name : </strong> {this.state.name} </p>
+                                        <p><strong>Faculty : </strong> {this.state.faculty} </p>
+                                        <p><strong>Major : </strong>{this.state.major} </p>
+                                        <p><strong>Advisor : </strong>{this.state.advisor}</p>
                                     </div>
                                 </div>
                             </div>

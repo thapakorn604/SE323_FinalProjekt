@@ -6,7 +6,7 @@
       "name": "Thapakorn Tuwaemuesa",
       "faculty": "College of Arts, Media and Technology",
       "major": "Software engineering",
-      "advisor": "Kittitouch Suteeca"    
+      "advisor": "Kittitouch"    
     }
   ],
 
@@ -27,6 +27,13 @@
       "name": "Mohamed Salah",
       "department":"Registration office"
     }
+  ],
+
+  "course":[
+    {
+      
+    }
   ]
+  
   
 }
