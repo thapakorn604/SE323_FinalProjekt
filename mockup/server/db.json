@@ -1,0 +1,32 @@
+{
+  "student": [
+    {
+      "id": 1,
+      "studentId" : "582115015",
+      "name": "Thapakorn Tuwaemuesa",
+      "faculty": "College of Arts, Media and Technology",
+      "major": "Software engineering",
+      "advisor": "Kittitouch Suteeca"    
+    }
+  ],
+
+  "lecturer": [
+    {
+      "id":1,
+      "lecturerId" : "CAMT101",
+      "name": "Noppon Choosri",
+      "faculty": "College of Arts, Media and Technology",
+      "major" : "Software engineering"
+    }
+  ],
+
+  "admin":[
+    {
+      "id":1,
+      "adminId":"STAFF101",
+      "name": "Mohamed Salah",
+      "department":"Registration office"
+    }
+  ]
+  
+}
