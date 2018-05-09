@@ -14,7 +14,7 @@ app.use(express.static(path.resolve(__dirname, '..', 'build')));
 
 //get all students
 app.get('/student/index',(req,res) => {
-    res.json(students)
+	res.status(200).json(students)
 });
 
 //get student by id
@@ -60,6 +60,7 @@ app.get('/student/enroll',(req,res) => {
 app.get('/student/enroll/:id', (req, res) => {
   res.json(courses.find(course => course.courseId == req.params.id))
 });
+
 
 /*************************Course part ***********************/
 
