@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('../app.js')
+const app = require('../app')
 
 describe('Test the lecturer path', () => {
     test(' response the GET method and get lecturer array', (done) => {
